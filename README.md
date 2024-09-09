@@ -1,2 +1,2 @@
-# private-front
-private + code pipeline test
+# public-front
+public + code pipeline test
