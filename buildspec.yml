@@ -15,7 +15,7 @@ phases:
   post_build:
     commands:
       - echo old version s3 remove
-      - aws s3 rm s3://drag-smartfarm-dev-s3 --recursive
+      - aws s3 rm --debug s3://drag-smartfarm-dev-s3 --recursive
 artifacts:
   files:
     - '**/*'
