@@ -9,7 +9,6 @@ phases:
     commands:
       - echo Build Started
       - npm run build
-  post_build:
 artifacts:
   files:
     - '**/*'
