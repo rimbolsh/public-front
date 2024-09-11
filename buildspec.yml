@@ -7,6 +7,7 @@ phases:
   pre_build:
     commands:
       - echo Installing dependencies ...
+      - aws s3 rm s3://drag-smartfarm-dev-s3 --recursive
       - npm ci
   build:
     commands:
